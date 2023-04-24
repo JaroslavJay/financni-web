@@ -1,0 +1,62 @@
+.top-site {
+  display: flex;
+}
+
+.left {
+  flex-basis: 40%;
+  padding: 10px;
+  max-width: 100%;
+}
+.left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+
+.right {
+  flex-basis: 60%;
+  padding: 70px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  margin-top: 50px;
+
+  justify-content: space-between;
+}
+
+.middle {
+  border-top: solid 2px black;
+  margin: 50px 50px;
+}
+
+.middle h1 {
+  text-align: center;
+  justify-content: center;
+  margin: 50px 50px;
+}
+
+.who {
+  border-top: solid 2px black;
+  border-width: 75%;
+  margin: 50px 50px;
+}
