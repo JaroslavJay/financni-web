@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color: rgba(0, 0, 255, 0.46);
+}
+
+.introduction-text {
+  width: 600px;
+  margin-top: 150px;
+  margin-left: 75px;
+  padding: 35px 35px;
+  color: white;
+  border: 5px solid white;
+  border-radius: 15px 40px;
+  transition: 0.5s;
+}
+
+.introduction-text h3 {
+  margin-top: 10px;
+}
+
+.introduction-text:hover {
+  transition: 0.5s;
+  border: 5px solid black;
+  border-radius: 40px 15px;
+  color: black;
+}
+
+.introduction-text:hover svg {
+  transition: 0.5s;
+  fill: black;
+}
+.socialLinks-small {
+  display: none;
+}
+.socialLinks-big {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.text {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.quote {
+  width: 80%;
+  margin-left: 10%;
+  border-top: solid 2px black;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Indie Flower", sans-serif;
+  font-weight: 500;
+}
+
+.quote h3 {
+  text-align: right;
+}
+
+.form {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.top-picture {
+  background-image: url("../P5127850.JPG");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* *********************************************Tablet********************************* */
+
+@media only screen and (min-width: 768px) and (max-width: 1204px) {
+  .introduction-text {
+    width: 400px;
+    margin-top: 75px;
+    margin-left: 75px;
+  }
+}
+
+/* *********************************** Mobil *******************/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .introduction-text {
+    display: block;
+  }
+
+  .socialLinks-small {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 20px;
+  }
+
+  .top-picture {
+    background-position: center;
+  }
+  .socialLinks-big {
+    display: none;
+  }
+
+  .introduction-text {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 15px 15px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px 40px;
+    transition: 0.5s;
+  }
+}

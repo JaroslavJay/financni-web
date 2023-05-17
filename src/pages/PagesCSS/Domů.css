@@ -3,7 +3,6 @@
 }
 
 .left {
-  flex-basis: 40%;
   padding: 10px;
   max-width: 100%;
 }
@@ -15,7 +14,6 @@
 }
 
 .right {
-  flex-basis: 60%;
   padding: 70px;
 }
 
