@@ -1,1 +1,172 @@
+.top-page {
+  display: flex;
+  height: 600px;
+  border-top: 1px solid black;
+}
 
+.top-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.top-left h1 {
+  text-align: center;
+  font-family: "Indie Flower", sans-serif;
+}
+
+.top-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.top-right img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid darkblue;
+  border-radius: 15px 40px;
+}
+
+.upper-text {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 255, 0.46);
+}
+
+.middle-page {
+  display: flex;
+  text-align: center;
+  margin: 50px;
+}
+
+.middle-page .middle-left {
+  border: 2px solid black;
+  border-radius: 15px 40px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.middle-page .middle-left .house-logo {
+  padding: 10px;
+}
+.middle-page .middle-left .house-h2 {
+  padding: 10px;
+}
+
+.middle-page .middle-center {
+  border: 2px solid black;
+  border-radius: 15px 40px;
+  margin: 40px;
+  padding: 20px;
+}
+.middle-page .middle-center .heart-logo {
+  padding: 10px;
+}
+
+.middle-page .middle-center .heart-h2 {
+  padding: 10px;
+}
+
+.middle-page .middle-right {
+  border: 2px solid black;
+  border-radius: 15px 40px;
+  margin: 40px;
+  padding: 20px;
+}
+.middle-page .middle-right .finance-logo {
+  padding: 10px;
+}
+
+.middle-page .middle-right .finance-h2 {
+  padding: 10px;
+}
+.bottom-text {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.46);
+}
+
+.bottom-page {
+  display: flex;
+}
+
+.bottom-right {
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.bottom-right-icon {
+  padding: 10px;
+}
+.bottom-arrow-first {
+  margin-top: 100px;
+}
+
+.bottom-center {
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.bottom-center-icon {
+  padding: 10px;
+}
+.bottom-arrow-second {
+  margin-top: 100px;
+}
+
+.bottom-left {
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.bottom-left-icon {
+  padding: 10px;
+}
+
+/********************************************************Tablet *******************************/
+@media only screen and (min-width: 768px) and (max-width: 875px) {
+  .top-page .top-right img {
+    width: 75%;
+    height: 75%;
+  }
+  .upper-text {
+    margin-top: 50px;
+  }
+  .middle-page {
+    display: block;
+  }
+}
+
+/**********************************************Mobil*********************************/
+@media only screen and (min-width: 320px) and (max-width: 875px) {
+  .top-page {
+    display: block;
+  }
+
+  .middle-page {
+    display: block;
+  }
+  .bottom-page {
+    padding-top: 50px;
+  }
+  .bottom-right {
+    margin: 10px;
+  }
+  .bottom-center {
+    margin: 10px;
+  }
+  .bottom-left {
+    margin: 10px;
+  }
+}

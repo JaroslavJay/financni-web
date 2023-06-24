@@ -38,13 +38,10 @@ h4 {
 }
 
 .middle-text {
-  margin-left: 10%;
-  width: 80%;
   margin-top: 80px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
   justify-content: center;
   text-align: center;
+  background-color: rgba(0, 0, 255, 0.46);
 }
 
 .middle-text h1 {
@@ -82,6 +79,10 @@ h4 {
 
 /********************************************************Tablet *******************************/
 @media only screen and (min-width: 768px) and (max-width: 875px) {
+  .top-page {
+    margin: 50px;
+  }
+
   .middle-text {
     margin-top: 200px;
   }
@@ -95,13 +96,14 @@ h4 {
 @media only screen and (min-width: 320px) and (max-width: 875px) {
   .top-page {
     display: block;
+    margin: 50px;
   }
   .top-right img {
     max-width: 75%;
     max-height: 75%;
   }
   .middle-text {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .text-bottom {
