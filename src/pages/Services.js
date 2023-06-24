@@ -1,10 +1,10 @@
-import ServicesReact from "../images/20140703_144431.jpg";
-
+import "../pages/PagesCSS/Services.css";
 const Services = () => {
   return (
     <div>
-      <div className="Obrazek">
-        <img src={ServicesReact} alt=""></img>
+      <div className="top-page">
+        <div className="top-page-left"></div>
+        <div className="top-page-right"></div>
       </div>
     </div>
   );
