@@ -6,6 +6,9 @@ const About = () => {
     <div>
       <div className="container">
         <div className="top-page">
+          <div className="top-right">
+            <img alt="" src={aboutPicture} />
+          </div>
           <div className="top-left">
             <h3>
               Můj pracovní život provázejí vzrušující události a cestování,
@@ -21,9 +24,6 @@ const About = () => {
               jsem prokázal během své kariéry. S vášní a nadšením se těším na
               nové výzvy a příležitosti, které mi přinese budoucnost.
             </h3>
-          </div>
-          <div className="top-right">
-            <img alt="" src={aboutPicture} />
           </div>
         </div>
         <div className="middle-text">

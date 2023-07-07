@@ -1,19 +1,20 @@
 import "../pages/PagesCSS/Services.css";
 import myServices from "../images/P5127887.JPG";
+import ContactStuff from "../components/ContactStuff";
 
 const Services = () => {
   return (
     <div>
       <div className="container">
         <div className="top-page">
+          <div className="top-right">
+            <img alt="" src={myServices} />
+          </div>
           <div className="top-left">
             <h1>
               Služby? Tato stránka bude fungovat jak stránka pro finančního
               poradce, proto je tato část takto rozvržena.
             </h1>
-          </div>
-          <div className="top-right">
-            <img alt="" src={myServices} />
           </div>
         </div>
         <div className="upper-text">
@@ -191,6 +192,9 @@ const Services = () => {
               <p>Vypracuji pro vás smlouvu s nejlepšími možnými podmínkami</p>
             </div>
           </div>
+        </div>
+        <div className="contactStuff">
+          <ContactStuff />
         </div>
       </div>
     </div>

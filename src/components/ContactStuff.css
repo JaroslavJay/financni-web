@@ -1,0 +1,37 @@
+.contact-bottom {
+  margin-top: 50px;
+}
+
+.bottom-upper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.bottom-bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contactForm {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 875px) {
+  .contact-bottom .bottom-upper {
+    display: block;
+  }
+  .contact-bottom .bottom-upper > div {
+    padding: 30px;
+  }
+
+  .contact-bottom .bottom-bottom {
+    display: block;
+  }
+
+  .contact-bottom .bottom-bottom > div {
+    padding: 30px;
+  }
+}
