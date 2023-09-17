@@ -1,3 +1,41 @@
-body {
-  background-color: black;
+.mySliderComponent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.mySliderPictures {
+  background-color: none;
+}
+
+img {
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 15px 40px;
+}
+
+.mySliderPictures {
+  position: absolute;
+}
+
+.mySliderIcons {
+  display: flex;
+  margin: px;
+  position: relative;
+}
+
+.leftControl {
+  margin: 10px;
+}
+
+.leftControl:hover {
+  cursor: pointer;
+}
+
+.rightControl {
+  margin: 10px;
+}
+
+.rightControl:hover {
+  cursor: pointer;
 }

@@ -1,5 +1,6 @@
 import "./PagesCSS/About.css";
 import aboutPicture from "../images/P5127846.JPG";
+import PhotoSlider from "../components/PhotoSlider";
 
 const About = () => {
   return (
@@ -26,9 +27,7 @@ const About = () => {
             </h3>
           </div>
         </div>
-        <div className="middle-text">
-          <h1>The secret of your success is found in your daily routine</h1>
-        </div>
+
         <div className="text-bottom">
           <div className="text-bottom-right">
             <h4>
@@ -61,9 +60,9 @@ const About = () => {
               úspěchu a najít naplnění ve fascinujícím a dynamickém IT odvětví.
             </h4>
           </div>
-        </div>
-        <div>
-          <h1>Tady jsem já ten fakin slider</h1>
+          <div className="mySlider">
+            <PhotoSlider />
+          </div>
         </div>
       </div>
     </div>

@@ -5,7 +5,6 @@
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: italic;
-  background-color: rgba(0, 0, 255, 0.46);
 }
 
 .introduction-text {
@@ -44,6 +43,7 @@
 }
 
 .text {
+  margin-top: 200px;
   padding: 20px 20px;
   text-align: center;
 }
@@ -76,7 +76,7 @@
 
 /* *********************************************Tablet********************************* */
 
-@media only screen and (min-width: 768px) and (max-width: 1204px) {
+@media only screen and (min-width: 860px) and (max-width: 1204px) {
   .introduction-text {
     width: 400px;
     margin-top: 75px;
@@ -85,8 +85,7 @@
 }
 
 /* *********************************** Mobil *******************/
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 859px) {
   .introduction-text {
     display: block;
   }

@@ -11,9 +11,7 @@ const Contact = () => {
             <img alt="" src={contactPicture} />
           </div>
           <div className="top-left">
-            <div className="top-text">
-              <h1>Jak mne můžete kontaktovat?</h1>
-            </div>
+            <h1>Jak mě můžete kontaktovat??</h1>
           </div>
         </div>
 

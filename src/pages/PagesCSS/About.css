@@ -1,8 +1,7 @@
 .top-page {
   display: flex;
   height: 600px;
-  border-width: 75%;
-  border-top: 1px solid black;
+  margin-top: 100px;
 }
 
 .top-left {
@@ -16,36 +15,26 @@
 .top-left h3 {
   text-align: center;
   font-family: "Indie Flower", sans-serif;
+  font-size: 1.2rem;
 }
 
 .top-right {
-  flex: 1;
+  flex: 2;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 20px;
+  text-align: center;
 }
 
 .top-right img {
-  max-width: 100%;
-  max-height: 100%;
-  border: 5px solid darkblue;
+  width: 800px;
+  height: auto;
+  border: 2px solid rgb(231, 231, 239);
   border-radius: 15px 40px;
+
+  margin-left: 30px;
 }
 
 h4 {
   font-size: 1.5rem;
-}
-
-.middle-text {
-  margin-top: 80px;
-  justify-content: center;
-  text-align: center;
-  background-color: rgba(0, 0, 255, 0.46);
-}
-
-.middle-text h1 {
-  padding: 30px;
 }
 
 .text-bottom {
@@ -78,26 +67,20 @@ h4 {
 }
 
 /********************************************************Tablet *******************************/
-@media only screen and (min-width: 768px) and (max-width: 875px) {
-  .top-page {
-    margin: 50px;
-  }
 
-  .middle-text {
-    margin-top: 200px;
-  }
-
-  .text-bottom {
-    display: block;
-  }
-}
-
-/**********************************************Mobil*********************************/
-@media only screen and (min-width: 320px) and (max-width: 875px) {
+@media only screen and (min-width: 768px) and (max-width: 1204px) {
   .top-page {
     display: block;
     margin: 50px;
   }
+  .top-right {
+    justify-content: center;
+  }
+
+  .top-left {
+    margin-top: 100px;
+  }
+
   .top-right img {
     max-width: 75%;
     max-height: 75%;
@@ -108,5 +91,66 @@ h4 {
 
   .text-bottom {
     display: block;
+    margin-top: 250px;
+  }
+
+  .mySlider {
+    margin-bottom: 500px;
+    background-color: none;
+  }
+}
+
+/**********************************************Mobil*********************************/
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  .top-page {
+    display: block;
+    margin: 50px;
+  }
+
+  .top-right {
+    justify-content: center;
+  }
+
+  .upper-text {
+    margin-top: 50px;
+  }
+
+  .top-right img {
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+  .top-left {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top-left h3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .text-bottom {
+    display: block;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .text-bottom-right {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
+  }
+
+  .text-bottom-center {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
+  }
+  .text-bottom-left {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
   }
 }

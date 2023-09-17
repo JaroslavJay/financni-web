@@ -4,9 +4,6 @@ import ContactForm from "../components/ContactForm";
 const ContactStuff = () => {
   return (
     <div>
-      <div className="upper-text">
-        <h1>Kontaktní údaje</h1>
-      </div>
       <div className="contact-bottom">
         <div className="bottom-upper">
           <div className="bt-phone-number">

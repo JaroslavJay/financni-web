@@ -23,7 +23,7 @@ function NavBar() {
       <Link className="logo" to="/" onClick={hideMenu}>
         <img src={logo} alt=""></img>
       </Link>
-    
+
       <div class="hamburger" onClick={toggleMenu}>
         {showMenu ? <FaTimes size={25} /> : <GiHamburgerMenu size={25} />}
       </div>

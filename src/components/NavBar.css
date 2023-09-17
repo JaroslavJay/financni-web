@@ -8,8 +8,8 @@
 /* Navigation bar styles */
 nav {
   display: flex;
-  background-color: rgba(0, 0, 255, 0.46);
-  color: white;
+
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,20 +40,24 @@ nav .menu li {
 
 nav .menu li a {
   transition: 0.5s;
-  color: white;
+  color: black;
   font-size: larger;
+  border: 3px solid black;
+  border-radius: 15px 40px;
+  padding: 5px 20px;
   text-decoration: none;
   margin-left: 30px;
 }
 nav .menu li a:hover {
   transition: 0.5s;
-  border: 2px solid white;
+  border: 3px solid black;
+  color: black;
   text-decoration: underline;
-  border-radius: 50px;
+  border-radius: 40px 15px;
   padding: 10px 50px;
 }
 .logo img {
-  max-height: 80px;
+  width: 80px;
   mix-blend-mode: multiply;
 }
 .hamburger {
@@ -69,7 +73,7 @@ nav .menu li a:hover {
     top: 50px;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 255, 0.575);
+
     z-index: 1;
   }
 
@@ -92,6 +96,7 @@ nav .menu li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(231, 231, 239);
     align-items: center;
     height: 175px;
     margin-top: 30px;

@@ -6,23 +6,23 @@ const Services = () => {
   return (
     <div>
       <div className="container">
-        <div className="top-page">
-          <div className="top-right">
+        <div className="top-page-ser">
+          <div className="top-right-ser">
             <img alt="" src={myServices} />
           </div>
-          <div className="top-left">
+          <div className="top-left-ser">
             <h1>
               Služby? Tato stránka bude fungovat jak stránka pro finančního
               poradce, proto je tato část takto rozvržena.
             </h1>
           </div>
         </div>
-        <div className="upper-text">
+        <div className="upper-text-ser">
           <h1>V jakých oblastech vám pomohu?</h1>
         </div>
-        <div className="middle-page">
-          <div className="middle-left">
-            <div className="house-logo">
+        <div className="middle-page-ser">
+          <div className="middle-left-ser">
+            <div className="house-logo-ser">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -35,10 +35,10 @@ const Services = () => {
                 <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
               </svg>
             </div>
-            <div className="house-h2">
+            <div className="house-h2-ser">
               <h2>Financování hypotéky uvěry</h2>
             </div>
-            <div className="house-text"></div>
+            <div className="house-text-ser"></div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
               beatae aspernatur necessitatibus maxime animi consequatur, sunt
@@ -49,8 +49,8 @@ const Services = () => {
               quibusdam sint voluptate?
             </p>
           </div>
-          <div className="middle-center">
-            <div className="heart-logo">
+          <div className="middle-center-ser">
+            <div className="heart-logo-ser">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -65,10 +65,10 @@ const Services = () => {
                 />
               </svg>
             </div>
-            <div className="heart-h2">
+            <div className="heart-h2-ser">
               <h2>Financování hypotéky uvěry</h2>
             </div>
-            <div className="heart-text">
+            <div className="heart-text-ser">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 beatae aspernatur necessitatibus maxime animi consequatur, sunt
@@ -80,8 +80,8 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="middle-right">
-            <div className="finance-logo">
+          <div className="middle-right-ser">
+            <div className="finance-logo-ser">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -96,10 +96,10 @@ const Services = () => {
                 />
               </svg>
             </div>
-            <div className="finance-h2">
+            <div className="finance-h2-ser">
               <h2>Financování hypotéky uvěry</h2>
             </div>
-            <div className="finance-text">
+            <div className="finance-text-ser">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 beatae aspernatur necessitatibus maxime animi consequatur, sunt
@@ -112,12 +112,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bottom-text">
+        <div className="bottom-text-ser">
           <h2>Jak bude vypadat naše spolupráce?</h2>
         </div>
-        <div className="bottom-page">
-          <div className="bottom-right">
-            <div className="bottom-right-icon">
+        <div className="bottom-page-ser">
+          <div className="bottom-right-ser">
+            <div className="bottom-right-icon-ser">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -129,11 +129,11 @@ const Services = () => {
                 <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
               </svg>
             </div>
-            <div className="bottom-right-text">
+            <div className="bottom-right-text-ser">
               <p>Po zavolání nebo emailu si domluvíme schůzku</p>
             </div>
           </div>
-          <div className="bottom-arrow-first">
+          <div className="bottom-arrow-first-ser">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -145,8 +145,8 @@ const Services = () => {
               <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
             </svg>
           </div>
-          <div className="bottom-center">
-            <div className="bottom-center-icon">
+          <div className="bottom-center-ser">
+            <div className="bottom-center-icon-ser">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -158,11 +158,11 @@ const Services = () => {
                 <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z" />
               </svg>
             </div>
-            <div className="bottom-center-text">
+            <div className="bottom-center-text-ser">
               <p>Vypracuji pro vás smlouvu s nejlepšími možnými podmínkami</p>
             </div>
           </div>
-          <div className="bottom-arrow-second">
+          <div className="bottom-arrow-second-ser">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -175,7 +175,7 @@ const Services = () => {
             </svg>
           </div>
 
-          <div className="bottom-left">
+          <div className="bottom-left-ser">
             <div className="bottom-left-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,12 +188,12 @@ const Services = () => {
                 <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z" />
               </svg>
             </div>
-            <div className="bottom-left-text">
+            <div className="bottom-left-text-ser">
               <p>Vypracuji pro vás smlouvu s nejlepšími možnými podmínkami</p>
             </div>
           </div>
         </div>
-        <div className="contactStuff">
+        <div className="contactStuff-ser">
           <ContactStuff />
         </div>
       </div>
