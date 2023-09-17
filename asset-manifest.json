@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jiri-jaro-web/static/css/main.858a3e94.css",
+    "main.js": "/jiri-jaro-web/static/js/main.99c6924c.js",
+    "static/media/DSC08433.JPG": "/jiri-jaro-web/static/media/DSC08433.f5e3ecd8344d89705dcf.JPG",
+    "static/media/DSC07933.JPG": "/jiri-jaro-web/static/media/DSC07933.abbe8ffc3f65e89b38f9.JPG",
+    "static/media/DSC08526.JPG": "/jiri-jaro-web/static/media/DSC08526.a1a31507fb77f87864af.JPG",
+    "static/media/P5127874.JPG": "/jiri-jaro-web/static/media/P5127874.7e8700f8f4f16ba42af5.JPG",
+    "static/media/P5127846.JPG": "/jiri-jaro-web/static/media/P5127846.4491d18add503e6eef11.JPG",
+    "static/media/P5127850.JPG": "/jiri-jaro-web/static/media/P5127850.8b53f7cedd1981dfd585.JPG",
+    "static/media/P5127887.JPG": "/jiri-jaro-web/static/media/P5127887.0430eea108122c4b6fe5.JPG",
+    "static/media/brand.jpg": "/jiri-jaro-web/static/media/brand.705d6720759d72d92861.jpg",
+    "index.html": "/jiri-jaro-web/index.html",
+    "main.858a3e94.css.map": "/jiri-jaro-web/static/css/main.858a3e94.css.map",
+    "main.99c6924c.js.map": "/jiri-jaro-web/static/js/main.99c6924c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.858a3e94.css",
+    "static/js/main.99c6924c.js"
+  ]
+}
